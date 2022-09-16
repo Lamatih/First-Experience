@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatihyol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+            <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container justify-content-center">
+                <div class="px-4 mx-2 my-2 h1">
+                    Fatihyol
+                </div>
+                <form class="d-flex w-50" role="search">
+                    <input class="form-control me-2 w-100 p-2" type="search"
+                        placeholder="Aradığınız ürün, kategori veya markayı yazınız" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Ara</button>
+                </form>
+                <div class="dropdown">
+                    <a class="btn btn-light dropdown-toggle lead ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg>Hesabım
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="btn btn-light dropdown-toggle lead ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>
+                        Favorilerim
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a class="btn btn-light dropdown-toggle lead ms-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg>
+                        Sepetim
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+        <div class="row bg-light">
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="dropdown">
+                            <a class="btn btn-light dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" >
+                              KADIN
+                            </a>
+                          
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="dropdown">
+                            <a class="btn btn-light dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" >
+                              ERKEK
+                            </a>
+                          
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="dropdown">
+                            <a class="btn btn-light dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" >
+                              ÇOCUK
+                            </a>
+                          
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="dropdown">
+                            <a class="btn btn-light dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" >
+                              KOZMETİK
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+  
+        <div class="row">
+            <div class="col-2">
+                
+            </div>
+            <div class="col-8 bg-success mt-4 rounded-pill p-2 text-center">
+                <div class="title">
+                    <span class="fw-bold">Hızlı teslimat</span>
+                    <span>yapılan ürünleri göster</span>
+                    <a href="#" class="btn btn-light rounded-pill">Button</a>
+
+                </div>
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+    
+        <div class="row">
+        <div class="col-md-2">
+            <div class="dropdown">
+                <label for="inputState" class="form-label"></label>
+                <select id="inputState" class="form-select">
+                    <option selected>Marka</option>
+                    <option>Mavi</option>
+                </select>
+            </div>
+            <div class="dropdown mb-4">
+                <label for="inputState" class="form-label"></label>
+                <select id="inputState" class="form-select">
+                    <option selected>Fiyat</option>
+                    <option>0-150 TL</option>
+                    <option>150-350 TL</option>
+                    <option>350-700 TL</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-8 text-center">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="/ceket.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Erkek Siyah Slim Fit Desenli Ceket
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="/ceket.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Erkek Siyah Slim Fit Desenli Ceket
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="/ceket.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Erkek Siyah Slim Fit Desenli Ceket
+                            </h5>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="/ceket.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Erkek Siyah Slim Fit Desenli Ceket
+                            </h5>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="1000000000">
+                    <img src="çanta.jpg" class="d-block w-100" alt="...">
+                    <p class="text-center fw-bold mt-1 p-3">İndirimli ürün</p>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000000">
+                    <img src="kırmızı topuklu.jpg" class="d-block w-100" alt="...">
+                    <p class="text-center fw-bold">İndirimli ürün</p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        </div>
+   
+        <div class="row mt-3">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8 text-center">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img src="/ceket.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Erkek Siyah Slim Fit Desenli Ceket
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img src="/ceket.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Erkek Siyah Slim Fit Desenli Ceket
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img src="/ceket.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Erkek Siyah Slim Fit Desenli Ceket
+                                </h5>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <img src="/ceket.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Erkek Siyah Slim Fit Desenli Ceket
+                                </h5>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bd-footer bg-light py-5 mt-3">
+        <div class="container">
+            <div class="row lead">
+                <div class="col-3">
+                    <p class="h2 text-center fw-bold">Fatihyol</p> 
+                </div>
+                <div class="col-3">
+                    <p class="h6 text-center p-2">
+                        Hakkımızda
+                    </p>
+                </div>
+                <div class="col-3">
+                    <p class="h6 text-center p-2">
+                        Kampanyalar
+                    </p>
+                </div>
+                <div class="col-3">
+                    <p class="h6 text-center p-2">
+                        Yardım
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
